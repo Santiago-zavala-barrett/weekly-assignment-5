@@ -1,10 +1,9 @@
-function circle (diameter){
-
-this.diameter = diameter
+function circle (diameter) {
+  this.diameter = diameter
 
   this.area = function ()
 
-   { return Math.PI * this.diameter * this.diameter 
+  { return Math.PI * this.diameter * this.diameter
   }
   return Math.PI * this.diameter
 };
