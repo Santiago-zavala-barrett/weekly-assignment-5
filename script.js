@@ -1,12 +1,12 @@
-function circle (diameter)
+function circle (diameter){
 
-  {   this.diameter = diameter
+this.diameter = diameter
 
   this.area = function ()
-  
-    {  return Math.PI * this.diameter * this.diameter
-    }
-    return Math.PI * this.diameter
+
+   { return Math.PI * this.diameter * this.diameter 
+  }
+  return Math.PI * this.diameter
 };
 
 const c = new circle(8)
